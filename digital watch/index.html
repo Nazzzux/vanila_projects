@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="reset.css"> 
+   <link rel="stylesheet" href="style.css"> 
+   <title>Watch</title>
+</head>
+<body>
+   <section class="watch">
+      <div class="container">
+         <h2 class="watch__title">watch</h2>
+         <div class="watch__inner">
+            <div class="watch__wrapper">
+               <div class="watch__values hours"></div>
+               <div class="watch__text">hours</div>
+            </div>
+            :
+            <div class="watch__wrapper">
+               <div class="watch__values minutes"></div>
+               <div class="watch__text">minutes</div>
+            </div>
+            :
+            <div class="watch__wrapper">
+               <div class="watch__values seconds"></div>
+               <div class="watch__text">seconds</div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <section class="countdown">
+      <div class="container">
+         <h2 class="countdown__title">countdown watch</h2>
+         <div class="countdown__inner" data-time="13 may 2026"></div>
+         <div class="countdown__footnote">Time remainig till<span class="countdown__span"></span></div>
+         
+      </div>
+   </section>
+   <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+body {
+   font-family: 'Bebas Neue', sans-serif;
+   font-weight: 400;
+   font-size: 68px;
+   line-height: 1;
+   color: white;
+   background-color: black;
+}
+
+.container {
+   max-width: 900px;
+   padding: 0 15px;
+   margin: 0 auto;
+}
+
+.watch {
+   margin-bottom: 100px;
+}
+
+.watch__title,
+.countdown__title{
+   font-size: inherit;
+   margin-bottom: 50px;
+}
+
+.watch__inner,
+.countdown__inner {
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+}
+
+.watch__inner {
+   max-width: 600px;
+   margin: 0 auto;
+}
+
+.countdown__inner{
+   margin-bottom: 30px;
+}
+
+.watch__wrapper,
+.countdown__wrapper {
+   text-align: center;
+}
+
+.watch__values,
+.countdown__values {
+   font-size: 130px;
+}
+
+.watch__text,
+.countdown__text {
+   font-size: 40px;
+}
+
+.countdown__footnote{
+   font-size: 40px;
+}
