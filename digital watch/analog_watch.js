@@ -8,6 +8,7 @@ function setClock() {
    const currentDate = new Date();
    const secRatio = currentDate.getSeconds() / 60;
    const minRatio = (secRatio + currentDate.getMinutes()) / 60;
+   const hourRatio = (minRatio +currentDate.getHours()) / 12;
 
    // by adding the quantity of seconds to minutes and minutes to hours, we are making the clock to rotate gradually and not jump to certain values
 
